@@ -240,7 +240,7 @@ custom_css:
 # 网页访问统计
 # Analysis of website visitors
 web_analytics:  # 网页访问统计
-  enable: false
+  enable: true
 
   # 遵循访客浏览器"请勿追踪"的设置，如果开启则不统计其访问
   # Follow the "Do Not Track" setting of the visitor's browser
@@ -720,11 +720,11 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
-    type: disqus
+    type: valine
 
 
 #---------------------------
@@ -785,8 +785,8 @@ gitalk:
 # Based on LeanCloud
 # See: https://valine.js.org/
 valine:
-  appId:
-  appKey:
+  appId: DBB0DRRd3vFP016QRUpgKVvY-gzGzoHsz
+  appKey: y487S9FV8InArCgBg1W5Fi7z
   path: window.location.pathname
   placeholder:
   avatar: 'retro'
@@ -796,7 +796,7 @@ valine:
   lang: 'zh-CN'
   highlight: false
   recordIP: false
-  serverURLs: ''
+  serverURLs: 'https://dbb0drrd.lc-cn-n1-shared.com'
   emojiCDN:
   emojiMaps:
   enableQQ: false
