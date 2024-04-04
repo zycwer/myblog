@@ -97,7 +97,21 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: fluid
-
+comments:  # 评论
+ enable: true  # 开启评论
+ type: valine  # 指定使用的评论模块
+valine:
+ appid: DBB0DRRd3vFP016QRUpgKVvY-gzGzoHsz # 从 LeanCloud 的应用中得到的 appId
+ appkey: y487S9FV8InArCgBg1W5Fi7z # 从 LeanCloud 的应用中得到的 APP Key
+ placeholder: 吐槽 # 评论框占位提示符
+ path: window.location.pathname # 当前文章页路径，用于区分不同的文章页，以保证正确读取该文章页下的评论列表
+ avatar: retro # Gravatar 头像展示方式
+ meta: ['nick', 'mail', 'link']  # 评论者相关属性
+ pageSize: 10 # 评论列表分页，每页条数
+ lang: zh-CN # zh-CN | zh-TW | en | ja
+ highlight: false # 代码高亮
+ recordIP: false # 是否记录评论者IP
+ serverURLs: https://dbb0drrd.lc-cn-n1-shared.com # REST API 服
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
