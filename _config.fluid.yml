@@ -788,7 +788,7 @@ valine:
   appId: DBB0DRRd3vFP016QRUpgKVvY-gzGzoHsz
   appKey: y487S9FV8InArCgBg1W5Fi7z
   path: window.location.pathname
-  placeholder:
+  placeholder: 千山万水总是情，留个评论行不行
   avatar: 'retro'
   meta: ['nick', 'mail', 'link']
   requiredFields: []
