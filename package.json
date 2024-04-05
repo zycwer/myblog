@@ -9,7 +9,7 @@
     "netlify": "npm run clean && npm run build"
   },
   "hexo": {
-    "version": "5.4.2"
+    "version": "7.1.1"
   },
   "dependencies": {
     "hexo": "^7.0.0",
