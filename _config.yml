@@ -101,25 +101,4 @@ theme: fluid
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-# hexo-neat
-## Docs: https://github.com/rozbo/hexo-neat
-neat_enable: true
-# 压缩 html
-neat_html:
-  enable: true
-  exclude:
-# 压缩 css  
-neat_css:
-  enable: true
-  exclude:
-    - '**/*.min.css'
-# 压缩 js
-neat_js:
-  enable: true
-  mangle: true
-  output:
-  compress:
-  exclude:
-    - '**/*.min.js'
-    - '**/jquery.fancybox.pack.js'
-    - '**/index.js'
+
