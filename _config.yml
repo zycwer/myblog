@@ -80,7 +80,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: 'date'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -101,3 +101,29 @@ theme: fluid
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+# 底部按钮组
+
+bottom_btn:
+  enable: true
+  reward_btn:
+    # 打赏按钮
+    reward_btn_enable: true
+    reward_btn_icon: iconfont icon-shang
+    reward_btn_text: 打赏
+    reward_btn_comment: "如果觉得本文对你有所帮助，请打赏——1元就足够感动我😘"
+    qrcodes:
+      - src: /images/wechatpay.webp
+        caption: 微信
+        title: 微信赞赏码
+      - src: /images/alipay.webp
+        caption: 支付宝
+        title: 支付宝收款码
+  like_btn:
+    # 点赞按钮
+    like_btn_enable: false
+    like_btn_icon:
+    like_hover_btn_icon:
+    like_btn_text: 点赞
+    leancloud_id:
+    leancloud_key:
+    serverUrl:
