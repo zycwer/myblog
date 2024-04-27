@@ -775,7 +775,7 @@ google_analytics:
 
 # Baidu Analytics
 # See: https://tongji.baidu.com
-baidu_analytics: # <app_id>
+baidu_analytics: 6819541d45f289c8389425a41bc6008b # <app_id>
 
 # Growingio Analytics
 # See: https://www.growingio.com
@@ -787,7 +787,7 @@ cloudflare_analytics:
 
 # Microsoft Clarity Analytics
 # See: https://clarity.microsoft.com/
-clarity_analytics: m33gyev63h
+clarity_analytics:
 
 # Matomo Analytics
 # See: https://matomo.org/
