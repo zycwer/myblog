@@ -787,7 +787,7 @@ cloudflare_analytics:
 
 # Microsoft Clarity Analytics
 # See: https://clarity.microsoft.com/
-clarity_analytics: # <project_id>
+clarity_analytics: m33gyev63h
 
 # Matomo Analytics
 # See: https://matomo.org/
@@ -800,9 +800,9 @@ matomo:
 # See: https://umami.is/
 umami:
   enable: false
-  script_url: # https://umami.example.com/script.js
-  website_id: # <your website id>
-  host_url: # <your umami site url>
+  script_url: https://analytics.us.umami.is/script.js # https://umami.example.com/script.js
+  website_id: 8e849110-c09c-4b26-ba3f-ae58f2f690c6 # <your website id>
+  host_url: qwrcb.top # <your umami site url>
 
 # Plausible Analytics
 # See: https://plausible.io/
@@ -814,7 +814,7 @@ plausible:
 # Show number of visitors of each article.
 # You can visit https://www.leancloud.cn to get AppID and AppKey.
 leancloud_visitors:
-  enable: true
+  enable: false
   app_id: 8X7Sy2FrZp9wMsOepSHdZdp2-MdYXbMMI # <your app id>"
   app_key: kfMxwGykK3aXmZBi0D4j1d8g # <your app key>
   # Required for apps from CN region
