@@ -814,15 +814,15 @@ plausible:
 # Show number of visitors of each article.
 # You can visit https://www.leancloud.cn to get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: RL0j29cG6bkCkJ1ZIJJzDsO3-MdYXbMMI # <your app id>"
-  app_key: 6COjE7jbNCOKyEtIBk7ZW1aV # <your app key>
+  enable: true
+  app_id: 8X7Sy2FrZp9wMsOepSHdZdp2-MdYXbMMI # <your app id>"
+  app_key: kfMxwGykK3aXmZBi0D4j1d8g # <your app key>
   # Required for apps from CN region
   server_url: # <your server url>
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
-  security: true
+  security: false
 
 # Another tool to show number of visitors to each article.
 # Visit https://console.firebase.google.com/u/0/ to get apiKey and projectId.
@@ -937,7 +937,7 @@ waline:
   pageSize: 10 # 评论数量多少时显示分页
   lang: zh-cn # 语言, 可选值: en, zh-cn
   # Warning: 不要同时启用 `waline.visitor` 以及 `leancloud_visitors`.
-  visitor: true # 文章阅读统计
+  visitor: false # 文章阅读统计
   comment_count: true # 如果为 false , 评论数量只会在当前评论页面显示, 主页则不显示
   requiredFields: [nick, mail] # 设置用户评论时必填的信息，[nick,mail]: [nick] | [nick, mail]
   libUrl: # Set custom library cdn url
