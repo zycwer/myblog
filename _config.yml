@@ -121,9 +121,9 @@ bottom_btn:
   like_btn:
     # 点赞按钮
     like_btn_enable: false
-    like_btn_icon:
-    like_hover_btn_icon:
+    like_btn_icon: iconfont icon-dianzan
+    like_hover_btn_icon: iconfont icon-dianzan1
     like_btn_text: 点赞
-    leancloud_id:
-    leancloud_key:
+    leancloud_id: RL0j29cG6bkCkJ1ZIJJzDsO3-MdYXbMMI
+    leancloud_key: jMtbaVHQp0g7md4ow7lbPjRF
     serverUrl:

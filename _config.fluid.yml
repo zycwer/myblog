@@ -278,11 +278,11 @@ web_analytics:  # 网页访问统计
   # LeanCloud 计数统计，可用于 PV UV 展示，如果 `web_analytics: enable` 没有开启，PV UV 展示只会查询不会增加
   # LeanCloud count statistics, which can be used for PV UV display. If `web_analytics: enable` is false, PV UV display will only query and not increase
   leancloud:
-    app_id: DBB0DRRd3vFP016QRUpgKVvY-gzGzoHsz
-    app_key: y487S9FV8InArCgBg1W5Fi7z
+    app_id: RL0j29cG6bkCkJ1ZIJJzDsO3-MdYXbMMI
+    app_key: 6COjE7jbNCOKyEtIBk7ZW1aV
     # REST API 服务器地址，国际版不填
     # Only the Chinese mainland users need to set
-    server_url: https://dbb0drrd.lc-cn-n1-shared.com
+    server_url: 
     # 统计页面时获取路径的属性
     # Get the attribute of the page path during statistics
     path: window.location.pathname
