@@ -424,7 +424,7 @@ github_banner:
 # ---------------------------------------------------------------
 
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
   host:
@@ -437,7 +437,7 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: true
-    family: Lato
+    family: LXGW Wenkai Screen
     size:
 
   # Font settings for site title (.site-title).
@@ -814,11 +814,11 @@ plausible:
 # Show number of visitors of each article.
 # You can visit https://www.leancloud.cn to get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: 8X7Sy2FrZp9wMsOepSHdZdp2-MdYXbMMI # <your app id>"
-  app_key: kfMxwGykK3aXmZBi0D4j1d8g # <your app key>
+  enable: true
+  app_id: DBB0DRRd3vFP016QRUpgKVvY-gzGzoHsz # <your app id>"
+  app_key: y487S9FV8InArCgBg1W5Fi7z # <your app key>
   # Required for apps from CN region
-  server_url: # <your server url>
+  server_url: https://dbb0drrd.lc-cn-n1-shared.com # <your server url>
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.

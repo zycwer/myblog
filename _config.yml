@@ -103,8 +103,8 @@ deploy:
   type: ''
 leancloud_counter_security:
   enable_sync: true
-  app_id: 8X7Sy2FrZp9wMsOepSHdZdp2-MdYXbMMI
-  app_key: kfMxwGykK3aXmZBi0D4j1d8g
-  server_url: # Required for apps from CN region, e.g. https://leancloud.cn
-  username: # Will be asked while deploying if is left blank
-  password: # Recommmended to be left blank. Will be asked while deploying if is left blank
+  app_id: DBB0DRRd3vFP016QRUpgKVvY-gzGzoHsz
+  app_key: y487S9FV8InArCgBg1W5Fi7z
+  server_url: https://dbb0drrd.lc-cn-n1-shared.com # Required for apps from CN region, e.g. https://leancloud.cn
+  username: qwccb # Will be asked while deploying if is left blank
+  password: zyc2010817A # Recommmended to be left blank. Will be asked while deploying if is left blank
