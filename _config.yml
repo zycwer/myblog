@@ -105,7 +105,7 @@ deploy:
   type: 'git'
 # hexo-neat
 # 博文压缩
-neat_enable: true
+neat_enable: false
 # 压缩html
 neat_html:
   enable: true
