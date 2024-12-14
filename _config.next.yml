@@ -19,7 +19,7 @@ minify: true
 # Define custom file paths.
 # Create your custom files in site directory `source/_data` and uncomment needed files below.
 custom_file_path:
-  #head: source/_data/head.njk
+  head: source/_data/head.njk
   #header: source/_data/header.njk
   #sidebar: source/_data/sidebar.njk
   #postMeta: source/_data/post-meta.njk
@@ -439,13 +439,13 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: true
-    family: Noto Serif SC
+    family: "LXGW WenKai Screen"
     size:
 
   # Font settings for site title (.site-title).
   title:
     external: true
-    family: Cinzel Decorative
+    family:
     size:
 
   # Font settings for headlines (<h1> to <h6>).
