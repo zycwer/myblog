@@ -50,9 +50,15 @@ importers:
       hexo-theme-landscape:
         specifier: ^1.0.0
         version: 1.0.0
+      hexo-theme-next:
+        specifier: ^8.21.1
+        version: 8.21.1
       hexo-util:
         specifier: ^3.3.0
         version: 3.3.0
+      js-yaml:
+        specifier: ^4.1.0
+        version: 4.1.0
       moment:
         specifier: ^2.30.1
         version: 2.30.1
@@ -470,6 +476,9 @@ packages:
 
   hexo-theme-landscape@1.0.0:
     resolution: {integrity: sha512-bWQJWMqQI78wWiJPQZq5pJBH20TM442ShCaHGRetuEgMraxH0OKxB3NTupJzNEkzEk8DV2yrdizkXdKN6i501A==}
+
+  hexo-theme-next@8.21.1:
+    resolution: {integrity: sha512-837Ycl/LWvp3CH7MhROComTncy23FuhSHkIIh418iTaU5Nc88tgb5aXtq53nD1eUgbKKMdmBm6AJBgr8FAGP2g==}
 
   hexo-util@3.3.0:
     resolution: {integrity: sha512-YvGngXijE2muEh5L/VI4Fmjqb+/yAkmY+VuyhWVoRwQu1X7bmWodsfYRXX7CUYhi5LqsvH8FAe/yBW1+f6ZX4Q==}
@@ -1402,6 +1411,8 @@ snapshots:
       nunjucks: 3.2.4(chokidar@3.6.0)
 
   hexo-theme-landscape@1.0.0: {}
+
+  hexo-theme-next@8.21.1: {}
 
   hexo-util@3.3.0:
     dependencies:
