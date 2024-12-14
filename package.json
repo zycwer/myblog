@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@adobe/css-tools": "^4.4.1",
+    "@waline/hexo-next": "^3.0.1",
     "hexo": "^7.3.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
