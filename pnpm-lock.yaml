@@ -47,12 +47,18 @@ importers:
       hexo-theme-anzhiyu:
         specifier: ^1.6.14
         version: 1.6.14
+      hexo-theme-butterfly:
+        specifier: ^5.2.2
+        version: 5.2.2
       hexo-util:
         specifier: ^3.3.0
         version: 3.3.0
       hexo-wordcount:
         specifier: ^6.0.1
         version: 6.0.1
+      moment-timezone:
+        specifier: ^0.5.46
+        version: 0.5.46
 
 packages:
 
@@ -537,6 +543,9 @@ packages:
 
   hexo-theme-anzhiyu@1.6.14:
     resolution: {integrity: sha512-Ltbsaf1URcFfZuqMVeDvRM1XUjC/PYbXtgbv9V9FVjfv85sotELCEjX+PbkangyGFvlO0oWNJeEjNS9/UUF13w==}
+
+  hexo-theme-butterfly@5.2.2:
+    resolution: {integrity: sha512-Q6CWt0+vcwBEXFhCPXZ0C1KPZAthVnUZFRNRfD34HBODvXTR+9iLzQuLEqVScv6X2gQx9smKtugsSI/CYnsFdg==}
 
   hexo-util@3.3.0:
     resolution: {integrity: sha512-YvGngXijE2muEh5L/VI4Fmjqb+/yAkmY+VuyhWVoRwQu1X7bmWodsfYRXX7CUYhi5LqsvH8FAe/yBW1+f6ZX4Q==}
@@ -1618,6 +1627,13 @@ snapshots:
       - supports-color
 
   hexo-theme-anzhiyu@1.6.14:
+    dependencies:
+      hexo-renderer-pug: 3.0.0
+      hexo-renderer-stylus: 3.0.1
+    transitivePeerDependencies:
+      - supports-color
+
+  hexo-theme-butterfly@5.2.2:
     dependencies:
       hexo-renderer-pug: 3.0.0
       hexo-renderer-stylus: 3.0.1
