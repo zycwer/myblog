@@ -55,14 +55,14 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: /img/avatar.jpg
   effect: false
 
 # Disable all banner images
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img:
+default_top_img: /img/1.webp
 
 # The banner image of index page
 index_img:
@@ -248,7 +248,7 @@ noticeOutdate:
   # Position: top / bottom
   position: top
   message_prev: 这篇文章已经有
-  message_next: 天没有更新了，作者可真够懒的......
+  message_next: 天没有更新了，作者可真够懒的（吐槽）
 
 # --------------------------------------
 # Footer Settings
