@@ -12,25 +12,20 @@
     "version": "7.3.0"
   },
   "dependencies": {
-    "@adobe/css-tools": "^4.4.1",
-    "@waline/hexo-next": "^3.0.1",
-    "hexo": "^7.3.0",
-    "hexo-generator-archive": "^2.0.0",
-    "hexo-generator-category": "^2.0.0",
-    "hexo-generator-index": "^4.0.0",
-    "hexo-generator-tag": "^2.0.0",
-    "hexo-neat": "^1.0.9",
-    "hexo-pagination": "^4.0.0",
-    "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-marked": "^6.3.0",
+    "hexo": "latest",
+    "hexo-generator-archive": "latest",
+    "hexo-generator-category": "latest",
+    "hexo-generator-index": "latest",
+    "hexo-generator-tag": "latest",
+    "hexo-neat": "latest",
+    "hexo-pagination": "latest",
+    "hexo-renderer-ejs": "latest",
+    "hexo-renderer-marked": "latest",
+    "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
-    "hexo-server": "^3.0.0",
-    "hexo-theme-fluid": "^1.9.8",
-    "hexo-theme-landscape": "^1.0.0",
-    "hexo-theme-next": "^8.21.1",
+    "hexo-server": "latest",
+    "hexo-theme-anzhiyu": "^1.6.14",
     "hexo-util": "^3.3.0",
-    "js-yaml": "^4.1.0",
-    "moment": "^2.30.1",
-    "nunjucks": "^3.2.4"
+    "hexo-wordcount": "^6.0.1"
   }
 }
