@@ -799,10 +799,10 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work
 font:
-  global_font_size:
-  code_font_size:
-  font_family:
-  code_font_family:
+  global-font-size: 16px
+  code-font-size: 13px
+  font-family: LXGW WenKai Screen, serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif, Merriweather
+  code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
 
 # Font settings for the site title and site subtitle
 blog_title_font:
@@ -1030,7 +1030,7 @@ css_prefix: true
 # Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+     - <link rel="stylesheet" href="https://registry.npmmirror.com/lxgw-wenkai-screen-web/latest/files/style.min.css" />
   bottom:
     # - <script src="xxxx"></script>
 
